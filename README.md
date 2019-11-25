@@ -2,7 +2,7 @@
 
 Hola, son proyectos muy sencillos, aplico lo aprendido.
 
-![Menu-Animado](https://pbs.twimg.com/media/EGaT9jSWkAAdnbD?format=jpg&name=large)
+![Menu-Animado](https://pbs.twimg.com/media/EKL9F8NWoAAbYQP?format=jpg&name=large)
 
 > [View code on CodePen](https://codepen.io/codegenial/pen/qBBGXdN)
 
