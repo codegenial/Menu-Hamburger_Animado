@@ -13,12 +13,76 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+.hero-img {    
+    background: url(../img/friki.jpg) center / cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 38%;
+    opacity: 1;
+}
+
+.hero-img::before {
+    content: '';
+    background: #003f5c;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
  h1 {
-     top: 20%;
-     position: absolute;
+     position: relative;
      font-size: 5rem;
-     color: #003f5c;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+ } 
+
+ .header-buttons {
+     padding: 1rem 0;
+     text-align: center;
+     position: absolute;
+     right: 0;
+     left: 0;
+     top: 70%;
  }
+
+ .btn-pink {
+     background-color: #ffdd67;
+     color: #003f5c;
+     box-shadow: 0 4px #e0be43;
+ }
+
+ .btn {
+     display: inline-block;
+     cursor: pointer;
+     font-weight: 600;
+     border-radius: 2px;
+     transition: none;
+     padding: 0.75rem 1.5rem;
+     margin: 0.30rem;
+     position: relative;
+ }
+
+ .btn-pink:hover {
+     top:2px;
+     box-shadow:0 2px #ffdd67
+}
+
+.btn-pink:active {
+    box-shadow:0 0 #e0be43;
+    top:4px
+}
+ 
 
 .container {
     position: absolute;
@@ -48,20 +112,20 @@ body {
     width: 100%;
     content: '';
     background-color: #003f5c;
-    /* border-radius: 50px; */
+    border-radius: 50px;
     transition:  all .5s ease-in-out;
 }
 
 .hamburger::after {
     height: 100%;
     top: -50px;
-    border-radius: 50px 50px 0 0; 
+    /* border-radius: 50px 50px 0 0;  */
 }
 
 .hamburger::before {
     height: 100%;
     top: 50px;
-    border-radius: 0 0 50px 50px; 
+    /* border-radius: 0 0 50px 50px;  */
 }
 
 /* ----- ----- Animation ----- ----- */
